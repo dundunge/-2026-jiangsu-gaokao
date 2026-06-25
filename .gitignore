@@ -1,0 +1,31 @@
+# Private/full datasets
+data/private/
+data/raw/
+# Full data JSON must not be committed at data root; only sample_* allowed
+data/*.json
+!data/sample_*.json
+data/*.xlsx
+data/*.xls
+data/*.pdf
+data/*.jpg
+data/*.jpeg
+data/*.png
+data/*.tsv
+
+# Generated pages may embed the full dataset. Do not commit them by default.
+public/*.html
+!public/README.md
+
+# Local runtime/cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
