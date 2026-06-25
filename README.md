@@ -1,5 +1,9 @@
 # 江苏高考志愿填报 2026 · Jiangsu Gaokao Volunteer Recommender
 
+#  #  # 临时试用地址 #  #  # 
+http://118.31.224.213/
+
+
 这是一个静态 HTML 志愿推荐工具的开源代码骨架。仓库只包含程序代码、数据结构说明和少量示例数据，不包含完整投档线、位次、学费、截图、PDF、Excel 或商业/人工整理数据。
 
 ## 公开范围
@@ -9,20 +13,6 @@
 - `data/sample_school_tags.json`：少量示例院校标签。
 - `docs/DATA_POLICY.md`：数据来源、版权和准确性边界说明。
 - `docs/DEPLOYMENT.md`：本地构建和服务器部署说明。
-
-## 不公开范围
-
-完整数据请放在 `data/private/`，该目录已被 `.gitignore` 忽略。生成出的 `public/index.html` 可能内嵌完整数据，也默认忽略，不建议提交到 GitHub。
-
-推荐的私有文件名：
-
-```text
-data/private/data.json
-data/private/school_tags.json
-data/private/group_tuition.json
-data/private/disc_eval.json
-data/private/firstrate_major.json
-```
 
 ## 快速开始
 
