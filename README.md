@@ -5,12 +5,9 @@
 ## 公开范围
 
 - `src/build_html.py`：从 JSON 数据生成单文件静态页面。
-- `src/clean_firstrate.py`：清洗一流专业名单里的表头噪声（纯本地，不抓站）。
-- `src/patch_tuition_audit.py`：标注学费数据可靠性（整校区间不可比 / 存疑，纯本地）。
-- `data/sample_data.json`：少量脱敏示例数据，用于演示字段格式（含来源标注与不可比/存疑示例）。
+- `data/sample_data.json`：少量脱敏示例数据，用于演示字段格式。
 - `data/sample_school_tags.json`：少量示例院校标签。
 - `docs/DATA_POLICY.md`：数据来源、版权和准确性边界说明。
-- `docs/CHANGELOG.md`：数据审计与修复记录。
 - `docs/DEPLOYMENT.md`：本地构建和服务器部署说明。
 
 ## 不公开范围
@@ -25,7 +22,6 @@ data/private/school_tags.json
 data/private/group_tuition.json
 data/private/disc_eval.json
 data/private/firstrate_major.json
-data/private/firstrate_mixed.json
 ```
 
 ## 快速开始
